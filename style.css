@@ -94,6 +94,9 @@ nav ul li a:hover
     overflow: hidden;
     position: relative;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slides {
@@ -101,6 +104,9 @@ nav ul li a:hover
     width: 90%;
     height: 100%;
     animation: slide-animation 16s infinite;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide {
@@ -116,6 +122,9 @@ nav ul li a:hover
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes slide-animation {
